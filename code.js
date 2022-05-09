@@ -109,8 +109,8 @@
     },
   ];
   var results = [];
-  var nome = context.userData.FIRST_NAME;
-  num = context.userData.PLATFORM_CONTACT_ID;
+  var nome = ; // NOME
+  num = ; // NUMERO
   num = num.toString();
   
   if (typeof num !== 'undefined' && num.startsWith('55') && num) {
